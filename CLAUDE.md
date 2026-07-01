@@ -187,7 +187,7 @@ R3 adds annual_history_compendium + silenKataribeReview cycle.
 
 R1 smoke test (when cells created):
 ```bash
-cd 40-engine/kotoba/crates/kotoba-kotodama/py
+cd kotoba-lang/kotodama-py
 python -c "from kotodama.cells.kataribe_community_chronicle import _r0_marker" 2>&1 | grep "R0 scaffold"
 ```
 
