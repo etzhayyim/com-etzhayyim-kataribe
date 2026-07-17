@@ -73,7 +73,7 @@ through translation) + Charter §1.7 多世代 + §1.15 non-eschatological.
 | `whistleblowerReport` | G10 STRUCTURAL: encryptedPayloadCid REQUIRED; chigiri.ipLicenseClaim cross-link |
 | `silenKataribeReview` | G3/G4/G5/G6/G7/G8/G11/G12 const-field structural enforcement |
 
-See `/00-contracts/lexicons/com/etzhayyim/kataribe/README.md`.
+See `/lex/README.md`.
 
 ## Constitutional Gates (G1–G13)
 
@@ -103,9 +103,9 @@ See ADR-2605263600 §6.
 
 ## Related Files
 
-- `/20-actors/kataribe/manifest.jsonld`
-- `/20-actors/kataribe/CLAUDE.md`
-- `/00-contracts/lexicons/com/etzhayyim/kataribe/` (5 Lexicons + README)
+- `/orgs/etzhayyim/com-etzhayyim-kataribe/manifest.edn`
+- `/orgs/etzhayyim/com-etzhayyim-kataribe/CLAUDE.md`
+- `/lex/` (5 Lexicons + README)
 - `/90-docs/adr/2605263600-kataribe-press-publishing-translation-tier-b-actor-r0.md`
 - `/90-docs/adr/2605262700-chigiri-legal-procedure-tier-b-actor-r0.md` — whistleblower cross-actor
 - `/90-docs/adr/2605263400-musubi-covenant-ceremony-tier-b-actor-r0.md` — cross-doctrinal pattern shared

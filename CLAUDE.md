@@ -1,4 +1,4 @@
-# 20-actors/kataribe — CLAUDE.md
+# orgs/etzhayyim/com-etzhayyim-kataribe — CLAUDE.md
 
 ## Identity
 
@@ -183,19 +183,15 @@ R3 adds annual_history_compendium + silenKataribeReview cycle.
 
 ## Build & Deploy
 
-**R0 status**: Scaffold only. R0 cells RuntimeError on import.
-
-R1 smoke test (when cells created):
-```bash
-cd kotoba-lang/kotodama-py
-python -c "from kotodama.cells.kataribe_community_chronicle import _r0_marker" 2>&1 | grep "R0 scaffold"
-```
+**R0 status**: standalone EDN contracts plus dry-run social and mesh components.
+Runtime activation belongs in its owning engine repository and consumes this actor through
+the west checkout. Run the repository suite with `bb --classpath src:test run_tests.clj`.
 
 ## Related Files
 
-- `/20-actors/kataribe/manifest.jsonld`
-- `/20-actors/kataribe/README.md`
-- `/00-contracts/lexicons/com/etzhayyim/kataribe/` (5 Lexicons + README)
+- `/orgs/etzhayyim/com-etzhayyim-kataribe/manifest.edn`
+- `/orgs/etzhayyim/com-etzhayyim-kataribe/README.md`
+- `/lex/` (5 Lexicons + README)
 - `/90-docs/adr/2605263600-kataribe-press-publishing-translation-tier-b-actor-r0.md`
 - `/90-docs/adr/2605181100-mst-encrypted-records-signal-keywrap.md` — G10 envelope
 - `/90-docs/adr/2605262700-chigiri-legal-procedure-tier-b-actor-r0.md` — whistleblower cross-actor

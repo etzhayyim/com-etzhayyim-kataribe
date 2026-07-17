@@ -2,7 +2,7 @@
 
 Per ADR-2605263600 (kataribe community press / publishing / translation
 substrate). Every `com.etzhayyim.kataribe.publicationChannel` record in
-`channels.seed.json` ships `verificationStatus = unverified-seed`, and **no
+`channels.seed.edn` ships `verificationStatus = unverified-seed`, and **no
 cell may route a member to a channel, ingest from it, or surface it as
 authoritative while its entry is `unverified-seed` or stale (G14)**. This file
 documents how an entry is moved through the three verification tiers — the

@@ -1,0 +1,5 @@
+{:identity/id "did:web:kataribe.etzhayyim.com"
+ :identity/actor "kataribe"
+ :identity/canonical-document "manifest.edn"
+ :identity/external-did-document ".well-known/did.json"
+ :identity/canonical-format :edn}
